@@ -18,7 +18,6 @@ public class Calculator {
 
     public int sumOfOperation(int summa) {
         return sum(summa) + minus(summa) + divide(summa) + multiply(summa);
-
     }
 
     public int multiply(int a) {
