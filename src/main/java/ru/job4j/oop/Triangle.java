@@ -4,6 +4,7 @@ import static java.lang.Math.sqrt;
 import static java.lang.Math.pow;
 
 public class Triangle {
+
     private Point first;
     private Point second;
     private Point third;
