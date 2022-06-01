@@ -27,7 +27,7 @@ public class Triangle {
         double ab = first.distance(second);
         double ac = first.distance(third);
         double bc = second.distance(third);
-        if(exist(ab, ac, bc)) {
+        if (exist(ab, ac, bc)) {
             double p = semiPerimeter(ab, ac, bc);
             rsl = sqrt(p *(p - ab) * (p - ac) * (p - bc));
         }
