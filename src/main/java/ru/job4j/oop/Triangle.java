@@ -4,7 +4,6 @@ import static java.lang.Math.sqrt;
 import static java.lang.Math.pow;
 
 public class Triangle {
-
     private Point first;
     private Point second;
     private Point third;
@@ -30,7 +29,7 @@ public class Triangle {
         double bc = second.distance(third);
         if (exist(ab, ac, bc)) {
             double p = semiPerimeter(ab, ac, bc);
-            rsl = sqrt(p *(p - ab) * (p - ac) * (p - bc));
+            rsl = sqrt(p * (p - ab) * (p - ac) * (p - bc));
         }
         return rsl;
     }
