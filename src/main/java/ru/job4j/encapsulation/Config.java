@@ -6,7 +6,7 @@ public class Config {
     private String[] properties;
 
     public Config(String name) {
-        this.name = name;
+        this.name  = name;
     }
 
     public void print() {
