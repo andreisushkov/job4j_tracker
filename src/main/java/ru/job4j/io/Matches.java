@@ -13,20 +13,16 @@ public class Matches {
             int matches = Integer.parseInt(input.nextLine());
             if (matches > 3 || matches < 1 || matches > count) {
                 System.out.println("Ошибка");
-                 break;
+            } else {
+                turn = !turn;
+                count -= matches;
+                System.out.println("Оставшиеся спички: " + count);
             }
-            turn = !turn;
-            count -= matches;
-            System.out.println("Оставшиеся спички: " + count);
-             while (count == 0) {
-                 System.out.println("Игра закончилась");
-                 break;
-             }
         }
-        if (!turn) {
-            System.out.println("Выиграл первый игрок");
-        } else {
-            System.out.println("Выиграл второй игрок");
+            if (!turn) {
+                System.out.println("Выиграл первый игрок");
+            } else {
+                System.out.println("Выиграл второй игрок");
+            }
         }
     }
-}
