@@ -1,6 +1,6 @@
 package ru.job4j.polymorph;
 
-public class SportCar implements Vehicle, Fuel{
+public class SportCar implements Vehicle, Fuel {
 
     @Override
     public void changeGear() {
